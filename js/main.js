@@ -2,24 +2,30 @@
 const projects = [
     {
         id: "project1",
-        title: "Project 1",
-        description: "A responsive web application built with React",
-        image: "assets/project1.jpg",
-        technologies: ["React", "CSS", "JavaScript"],
+        title: "Portfolio Website",
+        description: "Modern and responsive portfolio website built with HTML5, CSS3, and JavaScript",
+        image: "assets/portfolio.jpg",
+        technologies: ["HTML5", "CSS3", "JavaScript"],
+        liveUrl: "https://princekakadiya12.github.io/demo/",
+        githubUrl: "https://github.com/princekakadiya12/demo"
     },
     {
         id: "project2",
-        title: "Project 2",
-        description: "Interactive dashboard using modern JavaScript",
-        image: "assets/project2.jpg",
-        technologies: ["HTML", "CSS", "JavaScript"],
+        title: "Weather Dashboard",
+        description: "Real-time weather application with dynamic updates and forecast data",
+        image: "assets/weather.jpg",
+        technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
+        liveUrl: "https://princekakadiya12.github.io/weather-app/",
+        githubUrl: "https://github.com/princekakadiya12/weather-app"
     },
     {
         id: "project3",
-        title: "Project 3",
-        description: "E-commerce website with shopping cart functionality",
-        image: "assets/project3.jpg",
-        technologies: ["React", "CSS", "JavaScript"],
+        title: "Task Manager",
+        description: "Full-featured task management application with React and local storage",
+        image: "assets/tasks.jpg",
+        technologies: ["React", "CSS", "LocalStorage"],
+        liveUrl: "https://princekakadiya12.github.io/task-manager/",
+        githubUrl: "https://github.com/princekakadiya12/task-manager"
     }
 ];
 

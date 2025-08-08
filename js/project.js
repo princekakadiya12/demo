@@ -5,46 +5,49 @@ const projectId = urlParams.get('id');
 // Project details will be loaded from this data
 const projectsData = {
     project1: {
-        title: "Project 1",
-        description: `A responsive web application built with React. This project showcases modern web development practices including:
+        title: "Portfolio Website",
+        description: `A modern and responsive portfolio website showcasing:
         
-        • Responsive design principles
-        • Modern React hooks and patterns
-        • State management with Context API
-        • RESTful API integration
-        • Performance optimization techniques`,
-        image: "assets/project1.jpg",
-        technologies: ["React", "CSS", "JavaScript", "REST API", "Responsive Design"],
-        liveLink: "https://project1.com",
-        githubLink: "https://github.com/username/project1"
+        • Clean and professional design
+        • Responsive layout for all devices
+        • Smooth animations and transitions
+        • Contact form integration
+        • Project showcase functionality
+        • GitHub Pages deployment`,
+        image: "assets/portfolio.jpg",
+        technologies: ["HTML5", "CSS3", "JavaScript", "Git", "GitHub Pages"],
+        liveLink: "https://princekakadiya12.github.io/demo/",
+        githubLink: "https://github.com/princekakadiya12/demo"
     },
     project2: {
-        title: "Project 2",
-        description: `Interactive dashboard using modern JavaScript featuring:
+        title: "Weather Dashboard",
+        description: `Real-time weather application featuring:
         
-        • Real-time data visualization
-        • Interactive charts and graphs
-        • Data filtering and sorting
-        • Export functionality
-        • Responsive layout`,
-        image: "assets/project2.jpg",
-        technologies: ["HTML", "CSS", "JavaScript", "Chart.js", "REST API"],
-        liveLink: "https://project2.com",
-        githubLink: "https://github.com/username/project2"
+        • Current weather conditions
+        • 5-day weather forecast
+        • Location-based weather data
+        • Search by city functionality
+        • Dynamic weather icons
+        • Responsive design`,
+        image: "assets/weather.jpg",
+        technologies: ["HTML", "CSS", "JavaScript", "Weather API", "Responsive Design"],
+        liveLink: "https://princekakadiya12.github.io/weather-app/",
+        githubLink: "https://github.com/princekakadiya12/weather-app"
     },
     project3: {
-        title: "Project 3",
-        description: `E-commerce website with shopping cart functionality including:
+        title: "Task Manager",
+        description: `Full-featured task management application including:
         
-        • Product catalog with filtering
-        • Shopping cart management
-        • User authentication
-        • Payment integration
-        • Order management`,
-        image: "assets/project3.jpg",
-        technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-        liveLink: "https://project3.com",
-        githubLink: "https://github.com/username/project3"
+        • Task creation and management
+        • Priority levels and due dates
+        • Local storage persistence
+        • Filter and search functionality
+        • Drag and drop organization
+        • Responsive interface`,
+        image: "assets/tasks.jpg",
+        technologies: ["React", "CSS", "LocalStorage", "Drag & Drop API"],
+        liveLink: "https://princekakadiya12.github.io/task-manager/",
+        githubLink: "https://github.com/princekakadiya12/task-manager"
     }
 };
 
